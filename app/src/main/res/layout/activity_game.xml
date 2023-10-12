@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#CDDC39"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your last guess :"
+        android:visibility="invisible"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/guesstext"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your remaining rights :"
+        android:layout_margin="20dp"
+        android:visibility="invisible"
+        android:id="@+id/rightstext"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/commandtext"
+        android:textSize="40dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:hint="Enter your Guess"
+        android:textAlignment="center"
+        android:id="@+id/ans"
+        android:ems="10"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="CONFIRM"
+        android:backgroundTint="#E91E63"
+        android:layout_margin="50dp"
+        android:id="@+id/confirmbtn"/>
+
+
+</LinearLayout>
